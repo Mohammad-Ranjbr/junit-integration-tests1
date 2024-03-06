@@ -9,7 +9,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-@Table(name = "LibraryDemo")
+@Table(name = "library_test") // Query to rename table : ALTER TABLE LibraryDemo RENAME TO Storage2
 public class Library {
 
     @Id
